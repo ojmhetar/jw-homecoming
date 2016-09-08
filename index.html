@@ -27,7 +27,6 @@
           font-family: 'Source Sans Pro', sans-serif;
         }
 
-
         #cover-bg{
           background-image: url('./images/tracks.png'); 
           background-repeat: no-repeat; 
@@ -70,8 +69,8 @@
         }
 
         .title-container {
-          margin: 40px;
-          font-family: KlinicSlabLight; 
+          margin: 30px 30px 0px 30px;
+          font-family: KlinicSlabBook; 
           font-size: 36pt;
         }
 
@@ -85,6 +84,10 @@
           margin: 50px;
         }
 
+        .stat-desc {
+          color: white;
+        }
+
         .footer-number {
           font-family: KlinicSlabLight; 
           font-size: 36px;
@@ -96,6 +99,46 @@
           font-family: KlinicSlabLight; 
           font-size: 24px;
 
+        }
+
+        .btn {
+          border: none;
+          font-family: KlinicSlabBook;
+          font-size: 24px;
+          color: inherit;
+          background: none;
+          cursor: pointer;
+          padding: 15px 60px;
+          display: inline-block;
+          margin: 15px 30px;
+          text-transform: uppercase;
+          letter-spacing: 1px;
+          font-weight: 700;
+          outline: none;
+          position: relative;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+
+        .btn:after {
+          content: '';
+          position: absolute;
+          z-index: -1;
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+
+        .btn-1 {
+          border: 3px solid black;
+          color: black;
+        }
+
+        .btn-1a:hover,
+        .btn-1a:active {
+          color: white;
+          background: black;
         }
         </style>
 
@@ -116,7 +159,6 @@
           <a class="nav-item is-tab make-white">About</a>
           <a class="nav-item is-tab make-white">Stats</a>
           <a class="nav-item is-tab make-white">Video</a>
-          <a class="nav-item is-tab make-white">Tab</a>
         </div>
       </div>
     </nav>
@@ -152,46 +194,53 @@
 
         </p>
       </div>
+
+      <div class="row has-text-centered">
+        <div class="container">
+          <button class="btn btn-1 btn-1a">VOTE</button>
+        </div>
+      </div>
     </div>
 
   </section>
 
-  <section id="stats" class="hero is-large"> 
+  <section id="stats" class="hero is-medium"> 
     <div>
-      <div class="title-container row">
+      <div class="title-container make-white row">
           STATS
       </div>
+      <div class="row">
+        <div class="columns has-text-centered" style="margin-top:-50px;">
+          <div class="column">
+            <div class="stat-cont">
+              <p class="stat-number"> 200,000 </p>
+              <p class="stat-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+              <p class="stat-src"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+            </div>
 
-      <div class="columns has-text-centered">
-      <div class="column">
-        <div class="stat-cont">
-          <p class="stat-number"> 200,000 </p>
-          <p class="stat-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-          <p class="stat-src"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-        </div>
+            <div class="stat-cont">
+              <p class="stat-number"> 30 </p>
+              <p class="stat-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+              <p class="stat-src"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+            </div>
+          </div>
+          <div class="column">  
 
-        <div class="stat-cont">
-          <p class="stat-number"> 30 </p>
-          <p class="stat-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-          <p class="stat-src"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+            <div class="stat-cont">
+              <p class="stat-number"> 13 </p>
+              <p class="stat-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+              <p class="stat-src"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+            </div>
+
+            <div class="stat-cont">
+              <p class="stat-number"> 5 </p>
+              <p class="stat-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+              <p class="stat-src"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+            </div> 
+
+          </div>
         </div>
       </div>
-      <div class="column">  
-
-        <div class="stat-cont">
-          <p class="stat-number"> 13 </p>
-          <p class="stat-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-          <p class="stat-src"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-        </div>
-
-        <div class="stat-cont">
-          <p class="stat-number"> 5 </p>
-          <p class="stat-desc"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-          <p class="stat-src"> Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
-        </div> 
-
-      </div>
-    </div>
     </div>
   
   </section>
@@ -200,6 +249,10 @@
      <div class="title-container">
       <div class="row">
           VIDEO
+      </div>
+
+      <div class="row has-text-centered" style="margin-top: 5%;">
+        <iframe src="https://player.vimeo.com/video/181645979" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
       </div>
     </div>
   </section>
