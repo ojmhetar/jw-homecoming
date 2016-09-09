@@ -25,20 +25,22 @@
 
         body {
           font-family: 'Source Sans Pro', sans-serif;
+          color: black;
         }
 
         #cover-bg{
-          background-image: url('./images/tracks.png'); 
+          background-image: url('./images/tracks_pre_tint.png'); 
           background-repeat: no-repeat; 
           background-position: center center; 
           background-size: cover;
         }
 
         #stats {
-          background-image: url('./images/tracks.png'); 
+          background-image: url('./images/stats.png'); 
           background-repeat: no-repeat; 
           background-position: center center; 
           background-size: cover;
+
 
         }
 
@@ -71,13 +73,15 @@
         .title-container {
           margin: 30px 30px 0px 30px;
           font-family: KlinicSlabBook; 
-          font-size: 36pt;
+          font-size: 32pt;
+          color: black;
         }
 
         .stat-number {
           font-family: KlinicSlabLight; 
           font-size: 50pt;
           color: white;
+
         }
 
         .stat-cont {
@@ -86,6 +90,10 @@
 
         .stat-desc {
           color: white;
+        }
+
+        .stat-src {
+          color: #979797;
         }
 
         .footer-number {
@@ -101,9 +109,14 @@
 
         }
 
+        .tint {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.7);    
+        }
+
         .btn {
           border: none;
-          font-family: KlinicSlabBook;
+          font-family: KlinicSlabLight;
           font-size: 24px;
           color: inherit;
           background: none;
@@ -111,7 +124,6 @@
           padding: 15px 60px;
           display: inline-block;
           margin: 15px 30px;
-          text-transform: uppercase;
           letter-spacing: 1px;
           font-weight: 700;
           outline: none;
@@ -131,7 +143,7 @@
         }
 
         .btn-1 {
-          border: 3px solid black;
+          border: 2px solid black;
           color: black;
         }
 
@@ -139,6 +151,22 @@
         .btn-1a:active {
           color: white;
           background: black;
+        }
+
+        .btn-2 {
+          border: 1px solid white;
+          color: white;
+          font-size: 18px;
+        }
+
+        .btn-2a:hover,
+        .btn-2a:active {
+          color: black;
+          background: white;
+        }
+
+        .footer p {
+          font-size: 24px;
         }
         </style>
 
@@ -153,23 +181,26 @@
 
         
   <section id="cover-bg" class="hero is-fullheight">
-    <nav>
-      <div class="container">
-        <div class="nav-right">
-          <a class="nav-item is-tab make-white">About</a>
-          <a class="nav-item is-tab make-white">Stats</a>
-          <a class="nav-item is-tab make-white">Video</a>
+    <div>
+      <nav>
+        <div class="container">
+          <div class="nav-right">
+            <a href="#about" class="nav-item is-tab make-white">About</a>
+            <a href="#stats" class="nav-item is-tab make-white">Stats</a>
+            <a href="#video" class="nav-item is-tab make-white">Video</a>
+            <a href="#get-involved"  class="nav-item is-tab make-white">Help</a>
+          </div>
         </div>
-      </div>
-    </nav>
-    <div class="hero-body"> 
-      <div class="container has-text-centered" >
-        <img src="./images/USA.png" style="width: 25%;">
-        <br />
-        <img src="./images/red_bar_white.png" style="width: 25%;">
-        <br />
+      </nav>
+      <div class="hero-body"> 
+        <div class="container has-text-centered" >
+          <img src="./images/USA.png" style="width: 25%;">
+          <br />
+          <img src="./images/red_bar_white.png" style="width: 25%;">
+          <br />
 
-        <div class="margin-adjust jw-quote"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam - Jordan</div>
+          <div class="margin-adjust jw-quote"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam - Jordan</div>
+        </div>
       </div>
     </div>
   </section>
@@ -192,9 +223,17 @@
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+        <br /> 
+        <br /> 
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
         </p>
       </div>
-
+      <br /> 
+      <br /> 
+      <br /> 
+      <br /> 
       <div class="row has-text-centered">
         <div class="container">
           <button class="btn btn-1 btn-1a">VOTE</button>
@@ -205,7 +244,7 @@
   </section>
 
   <section id="stats" class="hero is-medium"> 
-    <div>
+    <div class="tint">
       <div class="title-container make-white row">
           STATS
       </div>
@@ -259,14 +298,52 @@
 
   <section id="get-involved" class="hero is-fullheight">
      <div>
-      <div class="title-container row">
+      <div class="title-container make-white row">
           GET INVOVLED
       </div>
       <div class="row has-text-centered margin-adjust" >
         <p> 
           At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
         </p>
-    </div>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        <div class="container">
+          <div class="columns">
+            <div class="column">
+              <button class="btn btn-2 btn-2a">Buy a T-Shirt</button>
+            </div>
+            <div class="column">
+              <button class="btn btn-2 btn-2a">Social Media</button>
+            </div>
+          </div>
+        </div>
+
+        <p> 
+          At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident
+        </p>
+
+         <br /><br /><br />
+
+
+        <div class="container">
+          <div class="columns" style="text-align: right;">
+            <div class="column">
+              Monday <br />
+              Monday <br />
+              Monday <br />
+              Monday <br />
+              Monday <br />
+            </div>
+            <div class="column" style="text-align: left;">
+              Monday <br />
+              Monday <br />
+              Monday <br />
+              Monday <br />
+              Monday <br />
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </section>
 
