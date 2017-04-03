@@ -190,6 +190,10 @@
         .bold {
             font-weight:bold;
         }
+
+        .italic {
+            font-style: italic;
+        }
             
         .footer {
             background-color: #000000;
