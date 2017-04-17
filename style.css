@@ -26,13 +26,19 @@
           background-size: cover;
         }
 
+        #fundraiser {
+          background-image: url('./images/fundraiser.png'); 
+          background-repeat: no-repeat; 
+          background-position: center center; 
+          background-size: cover;
+          color: white;
+        }
+
         #stats {
           background-image: url('./images/stats.png'); 
           background-repeat: no-repeat; 
           background-position: center center; 
           background-size: cover;
-
-
         }
 
         #get-involved {
