@@ -27,7 +27,7 @@
         }
 
         #fundraiser {
-          background-image: url('./images/fundraiser.png'); 
+          background-image: url('./images/fundraiser.jpg'); 
           background-repeat: no-repeat; 
           background-position: center center; 
           background-size: cover;
@@ -131,9 +131,14 @@
 
         }
 
-        .tint {
+        .tint70 {
             width: 100%;
             background: rgba(0, 0, 0, 0.7);    
+        }
+
+        .tint40 {
+            width: 100%;
+            background: rgba(0, 0, 0, 0.3);    
         }
 
         .btn {
@@ -202,7 +207,7 @@
         }
             
         .footer {
-            background-color: #000000;
-            color: white;
+             background-color: white;
+            color: black;
         }
         
