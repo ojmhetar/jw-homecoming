@@ -1,236 +1,236 @@
-        @font-face {
-          font-family: KlinicSlabBook;
-          src: url("./fonts/KlinicSlabBook.otf") format("opentype");
-        }
+@font-face {
+  font-family: KlinicSlabBook;
+  src: url("./fonts/KlinicSlabBook.otf") format("opentype");
+}
 
-        @font-face {
-          font-family: KlinicSlabLight;
-          src: url("./fonts/KlinicSlabLight.otf") format("opentype");
-        }
+@font-face {
+  font-family: KlinicSlabLight;
+  src: url("./fonts/KlinicSlabLight.otf") format("opentype");
+}
 
-        @font-face {
-          font-family: KlinicSlabBold;
-          src: url("./fonts/KlinicSlabBold.otf") format("opentype");
-        }
+@font-face {
+  font-family: KlinicSlabBold;
+  src: url("./fonts/KlinicSlabBold.otf") format("opentype");
+}
 
-        body {
-          font-family: 'Source Sans Pro', sans-serif;
-          color: black;
-          font-size: 18px;
-        }
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 18px;
+}
 
-        h2 {
-          font-family: KlinicSlabBold; 
-          font-size: 25px;
-        }
+h2 {
+  font-family: KlinicSlabBold; 
+  font-size: 25px;
+}
 
-        #cover-bg{
-          background-image: url('./images/tracks_pre_tint.png'); 
-          background-repeat: no-repeat; 
-          background-position: center center; 
-          background-size: cover;
-        }
+#cover-bg{
+  background-image: url('./images/tracks_pre_tint.png'); 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-size: cover;
+}
 
-        #fundraiser {
-          background-image: url('./images/fundraiser.jpg'); 
-          background-repeat: no-repeat; 
-          background-position: center center; 
-          background-size: cover;
-          color: white;
-        }
+#fundraiser {
+  background-image: url('./images/fundraiser.jpg'); 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-size: cover;
+  color: white;
+}
 
-        #stats {
-          background-image: url('./images/stats.png'); 
-          background-repeat: no-repeat; 
-          background-position: center center; 
-          background-size: cover;
-        }
+#stats {
+  background-image: url('./images/stats.png'); 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-size: cover;
+}
 
-        #get-involved {
-          background-image: url('./images/voice.png');
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-color:black;
-          color: white;
-        }
+#get-involved {
+  background-image: url('./images/voice.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:black;
+  color: white;
+}
 
-        #jw-photo {
-          float: left;
-          margin: 0px 10px;
-          width: 30%;
-          height: auto;
-        }
+#jw-photo {
+  float: left;
+  margin: 0px 10px;
+  width: 30%;
+  height: auto;
+}
 
-        #left-photo {
-          float: left;
-          margin: 30px;
-          width: 33%;
-          height: auto;
-        }
+#left-photo {
+  float: left;
+  margin: 30px;
+  width: 33%;
+  height: auto;
+}
 
-        #about {
-          margin-bottom: -100px;
-        }
+#about {
+  margin-bottom: -100px;
+}
 
-        #concert a { 
-          color: black;
-          text-decoration: underline;
-        }
+#concert a { 
+  color: black;
+  text-decoration: underline;
+}
 
-        .source-sans { 
-          font-family: 'Source Sans Pro', sans-serif;
-        }
+.source-sans { 
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-        .make-white {
-          color: white !important; 
-        }
+.make-white {
+  color: white !important; 
+}
 
-        .make-white:hover { 
-          border-color: white !important;
-        }
+.make-white:hover { 
+  border-color: white !important;
+}
 
-        .margin-adjust { 
-          margin: 0px 20%;
-        }
+.margin-adjust { 
+  margin: 0px 20%;
+}
 
-        .title-container {
-          margin: 30px 30px 0px 30px;
-          font-family: KlinicSlabBook; 
-          font-size: 32pt;
-          color: black;
-        }
+.title-container {
+  margin: 30px 30px 0px 30px;
+  font-family: KlinicSlabBook; 
+  font-size: 32pt;
+  color: black;
+}
 
-        .stat-number {
-          font-family: KlinicSlabLight; 
-          font-size: 50pt;
-          color: white;
+.stat-number {
+  font-family: KlinicSlabLight; 
+  font-size: 50pt;
+  color: white;
 
-        }
+}
 
-        .stat-cont {
-          margin: 50px;
-        }
+.stat-cont {
+  margin: 50px;
+}
 
-        .stat-desc {
-          color: white;
-        }
+.stat-desc {
+  color: white;
+}
 
-        .stat-src {
-          color: #979797;
-        }
+.stat-src {
+  color: #979797;
+}
 
-        .embed-container { 
-          position: relative; 
-          padding-bottom: 56.25%; 
-          height: 0; 
-          overflow: hidden; 
-          max-width: 100%; 
-          width: 100%;
-          left: 0;
-        } 
-        .embed-container iframe, 
-        .embed-container object, 
-        .embed-container embed { 
-          position: absolute;
-    
-           width: 66%; 
-           height: 70%;
-           text-align: center;
-           left: 18%;
-         }
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%; 
+  width: 100%;
+  left: 0;
+} 
+.embed-container iframe, 
+.embed-container object, 
+.embed-container embed { 
+  position: absolute;
 
-        .footer-number {
-          font-family: KlinicSlabLight; 
-          font-size: 36px;
-        }
+   width: 66%; 
+   height: 70%;
+   text-align: center;
+   left: 18%;
+ }
 
-        .jw-quote { 
-          margin-top: 5%;
-          color: white;
-          font-family: KlinicSlabLight; 
-          font-size: 24px;
-        }
+.footer-number {
+  font-family: KlinicSlabLight; 
+  font-size: 36px;
+}
 
-        .tint70 {
-            width: 100%;
-            background: rgba(0, 0, 0, 0.7);    
-        }
+.jw-quote { 
+  margin-top: 5%;
+  color: white;
+  font-family: KlinicSlabLight; 
+  font-size: 24px;
+}
 
-        .tint40 {
-            width: 100%;
-            background: rgba(0, 0, 0, 0.3);    
-        }
+.tint70 {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);    
+}
 
-        .btn {
-          border: none;
-          font-family: KlinicSlabLight;
-          font-size: 24px;
-          color: inherit;
-          background: none;
-          cursor: pointer;
-          padding: 15px 60px;
-          display: inline-block;
-          margin: 15px 30px;
-          letter-spacing: 1px;
-          font-weight: 700;
-          outline: none;
-          position: relative;
-          -webkit-transition: all 0.3s;
-          -moz-transition: all 0.3s;
-          transition: all 0.3s;
-        }
+.tint40 {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);    
+}
 
-        .btn:after {
-          content: '';
-          position: absolute;
-          z-index: -1;
-          -webkit-transition: all 0.3s;
-          -moz-transition: all 0.3s;
-          transition: all 0.3s;
-        }
+.btn {
+  border: none;
+  font-family: KlinicSlabLight;
+  font-size: 24px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  padding: 15px 60px;
+  display: inline-block;
+  margin: 15px 30px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
-        .btn-1 {
-          border: 2px solid black;
-          color: black;
-          font-size: 18px;
-        }
+.btn:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
 
-        .btn-1a:hover,
-        .btn-1a:active {
-          color: white;
-          background: black;
-          font-size: 18px;
-        }
+.btn-1 {
+  border: 2px solid black;
+  color: black;
+  font-size: 18px;
+}
 
-        .btn-2 {
-          border: 1px solid white;
-          color: white;
-          font-size: 18px;
-        }
+.btn-1a:hover,
+.btn-1a:active {
+  color: white;
+  background: black;
+  font-size: 18px;
+}
 
-        .btn-2a:hover,
-        .btn-2a:active {
-          color: black;
-          background: white;
-        }
+.btn-2 {
+  border: 1px solid white;
+  color: white;
+  font-size: 18px;
+}
 
-        .footer p {
-          font-size: 24px;
-        }
-            
-        .bold {
-            font-weight:bold;
-        }
+.btn-2a:hover,
+.btn-2a:active {
+  color: black;
+  background: white;
+}
 
-        .italic {
-            font-style: italic;
-        }
-            
-        .footer {
-            background-color: #222;
-            color: white;
-            height: 175px;
-        }
+.footer p {
+  font-size: 24px;
+}
+
+.bold {
+    font-weight:bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+    height: 175px;
+}
 
 
 @media (max-width: 700px) {
@@ -241,4 +241,3 @@
     height: auto;
   }
 }
-        
