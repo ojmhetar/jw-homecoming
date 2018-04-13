@@ -77,6 +77,11 @@ h2 {
   text-decoration: underline;
 }
 
+#concert a:hover { 
+  color: gray;
+  text-decoration: underline;
+}
+
 .source-sans { 
   font-family: 'Source Sans Pro', sans-serif;
 }
