@@ -19,6 +19,11 @@
           font-size: 18px;
         }
 
+        h2 {
+          font-family: KlinicSlabBold; 
+          font-size: 25px;
+        }
+
         #cover-bg{
           background-image: url('./images/tracks_pre_tint.png'); 
           background-repeat: no-repeat; 
@@ -54,6 +59,22 @@
           margin: 0px 10px;
           width: 30%;
           height: auto;
+        }
+
+        #left-photo {
+          float: left;
+          margin: 30px;
+          width: 33%;
+          height: auto;
+        }
+
+        #about {
+          margin-bottom: -100px;
+        }
+
+        #concert a { 
+          color: black;
+          text-decoration: underline;
         }
 
         .source-sans { 
@@ -128,7 +149,6 @@
           color: white;
           font-family: KlinicSlabLight; 
           font-size: 24px;
-
         }
 
         .tint70 {
@@ -207,7 +227,18 @@
         }
             
         .footer {
-             background-color: white;
-            color: black;
+            background-color: #222;
+            color: white;
+            height: 175px;
         }
+
+
+@media (max-width: 700px) {
+  #left-photo {
+    float: left;
+    margin: 30px;
+    width: 85%;
+    height: auto;
+  }
+}
         
